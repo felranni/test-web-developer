@@ -86,8 +86,6 @@ nav .nav-link li a {
   font-weight: 600;
   line-height: 3rem;
   display: block;
-  -webkit-transition: all 0.33s;
-  transition: all 0.33s;
 }
 
 nav .nav-link li:hover {
@@ -350,10 +348,6 @@ main .main-content .image-group .group-image:hover .image-overlay {
 }
 
 @media only screen and (min-width: 992px) {
-  nav {
-    -webkit-transition: none;
-    transition: none;
-  }
   nav .nav-logo {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
@@ -377,6 +371,8 @@ main .main-content .image-group .group-image:hover .image-overlay {
     -ms-grid-column: 4;
     -ms-grid-column-span: 9;
     grid-column: 4 / span 9;
+    -webkit-transition: none;
+    transition: none;
   }
   nav .nav-link li {
     width: 100%;
@@ -411,8 +407,6 @@ main .main-content .image-group .group-image:hover .image-overlay {
     line-height: initial;
     display: block;
     color: #343e48;
-    -webkit-transition: all 0.33s;
-    transition: all 0.33s;
   }
   nav .nav-link li a:hover {
     color: #00a7e0;

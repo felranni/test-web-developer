@@ -97,8 +97,6 @@ nav {
                 font-weight: 600;
                 line-height: 3rem;
                 display: block;
-
-                transition: all 0.33s;
             }
 
             &:hover {
@@ -365,7 +363,6 @@ main {
 
 @media only screen and (min-width: 992px) {
     nav {
-        transition: none;
         .nav-logo {
             grid-column: 1 / span 3;
         }
@@ -382,6 +379,7 @@ main {
             justify-content: space-around;
             
             grid-column: 4 / span 9;
+            transition: none;
 
             li {
                 width: 100%;
@@ -413,7 +411,6 @@ main {
                     line-height: initial;
                     display: block;
                     color: $grey-darken;
-                    transition: all 0.33s;
 
                     &:hover {
                         color: $blue;
