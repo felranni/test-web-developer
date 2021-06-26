@@ -1,4 +1,4 @@
-// general
+// colors
 $blue: #00a7e0;
 $blue-darken: #0094c7;
 
@@ -6,10 +6,8 @@ $grey: #e4e2e2;
 $grey-darken: #343e48;
 $grey-lighten: #e3e1e1;
 
-// specifics
 $hover: #044a62;
 $header: #bec2c5;
-
 
 // fonts
 $font-14: 0.875rem;
@@ -399,6 +397,15 @@ main {
                     display: none;
                 }
     
+                &:hover {
+                    background-color: #fff;
+                    transition: all 0.33s;
+
+                    a {
+                        color: $grey-darken;
+                    }
+                }
+
                 a {
                     padding: initial;
                     font-size: $font-14;
@@ -407,13 +414,8 @@ main {
                     display: block;
                     color: $grey-darken;
                     transition: all 0.33s;
-                }
 
-                &:hover {
-                    background-color: #fff;
-                    transition: all 0.33s;
-    
-                    a {
+                    &:hover {
                         color: $blue;
                         transition: all 0.33s;
                     }
@@ -441,13 +443,13 @@ main {
                     }
                 }
             }
-            
         }
 
         .nav-menu {
             display: none;
         }
     }
+
     main {
         grid-template-columns: repeat(12, 1fr);
 

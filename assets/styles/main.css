@@ -396,6 +396,14 @@ main .main-content .image-group .group-image:hover .image-overlay {
   nav .nav-link li.nav-mobile-logo {
     display: none;
   }
+  nav .nav-link li:hover {
+    background-color: #fff;
+    -webkit-transition: all 0.33s;
+    transition: all 0.33s;
+  }
+  nav .nav-link li:hover a {
+    color: #343e48;
+  }
   nav .nav-link li a {
     padding: initial;
     font-size: 0.875rem;
@@ -406,12 +414,7 @@ main .main-content .image-group .group-image:hover .image-overlay {
     -webkit-transition: all 0.33s;
     transition: all 0.33s;
   }
-  nav .nav-link li:hover {
-    background-color: #fff;
-    -webkit-transition: all 0.33s;
-    transition: all 0.33s;
-  }
-  nav .nav-link li:hover a {
+  nav .nav-link li a:hover {
     color: #00a7e0;
     -webkit-transition: all 0.33s;
     transition: all 0.33s;
