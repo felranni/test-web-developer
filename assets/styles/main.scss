@@ -277,6 +277,7 @@ main {
             grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
 
             .group-image {
+                cursor: pointer;
                 position: relative;
                 border: 2px solid $blue;
 
@@ -364,6 +365,7 @@ main {
 
 @media only screen and (min-width: 992px) {
     nav {
+        transition: none;
         .nav-logo {
             grid-column: 1 / span 3;
         }
