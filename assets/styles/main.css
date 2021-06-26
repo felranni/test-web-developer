@@ -244,6 +244,7 @@ main .main-content .content-group .group-header h1 {
   color: #00a7e0;
   font-size: 1.875rem;
   font-weight: 700;
+  text-transform: uppercase;
 }
 
 main .main-content .content-group .group-header h2 {
@@ -349,6 +350,10 @@ main .main-content .image-group .group-image:hover .image-overlay {
 }
 
 @media only screen and (min-width: 992px) {
+  nav {
+    -webkit-transition: none;
+    transition: none;
+  }
   nav .nav-logo {
     -ms-grid-column: 1;
     -ms-grid-column-span: 3;
